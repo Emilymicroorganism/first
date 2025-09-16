@@ -1,0 +1,104 @@
+type('3,2')
+<class 'str'>
+len("hellow")
+6
+len("hel7low")
+7
+len("hel-low")
+7
+len("hellow")
+6
+8**8
+16777216
+6//4
+1
+-6//4
+-2
+-6/4
+-1.5
+int(9a)
+SyntaxError: invalid decimal literal
+int(a)
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    int(a)
+NameError: name 'a' is not defined
+int(len('a'))
+1
+minute=108
+huors=minute//60
+min=minute-60*hours
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    min=minute-60*hours
+NameError: name 'hours' is not defined. Did you mean: 'huors'?
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+Traceback (most recent call last):
+  File "d:/gear/Desktop/python.py", line 3, in <module>
+    m=minute-huors*60
+NameError: name 'huors' is not defined. Did you mean: 'hours'?
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+Traceback (most recent call last):
+  File "d:/gear/Desktop/python.py", line 3, in <module>
+    m=minute-huors*60
+NameError: name 'huors' is not defined. Did you mean: 'hours'?
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+huors+m
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+49
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+48
+49
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+48
+1 48
+'LOL'*4
+'LOLLOLLOLLOL'
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+the minutes108
+Traceback (most recent call last):
+  File "d:/gear/Desktop/python.py", line 2, in <module>
+    h=t//60
+TypeError: unsupported operand type(s) for //: 'str' and 'int'
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+the minutes108
+Traceback (most recent call last):
+  File "d:/gear/Desktop/python.py", line 4, in <module>
+    print(h,t-60*h)
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+the minutes108
+1 48
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+the minutes108
+1 48
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+the minutes108
+1 : 48
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+the minutes108
+1 h 48
+
+====================== RESTART: d:/gear/Desktop/python.py ======================
+the minutes108
+1 h 48
+108%100
+8
+108%10
+8
+108%100
+8
+108%1000
+108
