@@ -6,3 +6,8 @@ hours=minute//60
 m=minute-hours*60
 print(m)
 print(hours,m)
+
+t=input('the minutes')
+T=int(t)
+h=T//60
+print(h,T-60*h)
