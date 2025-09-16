@@ -5,3 +5,8 @@ n=4
 ...     print(n)                                                                                                        
 ...     n=n-1                                                                                                           
 >>> print('hellow world!')                                                                                              
+minute=108
+hours=minute//60
+m=minute-hours*60
+print(m)
+print(hours,m)
