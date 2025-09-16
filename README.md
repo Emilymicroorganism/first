@@ -11,3 +11,7 @@ t=input('the minutes')
 T=int(t)
 h=T//60
 print(h,T-60*h)
+
+T=int(input('the minutes'))
+h=T//60
+print(h,T-60*h)
