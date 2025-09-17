@@ -12,3 +12,22 @@ C=input('the bgcolor')
 w.bgcolor('C')TurtleGraphicsError: bad color string: C
 #TurtleGraphicsError: bad color string: C
 #无法这样替换，不能把input('the bgcolor')像数字一样给C赋值
+#直接丢到里面，合并
+
+import turtle
+w=turtle.Screen()
+w.bgcolor(input('the bgcolor'))
+w.title('hello,litte turtle')
+T=turtle.Turtle()
+T.color('white')
+T.forward(60)
+T.color('blue')
+T.left(60)
+T.pensize(int(input('the pen size')))
+T.forward(60)
+
+T.color(input('the T colour'))
+T.right(60)
+T.forward(120)
+
+w.mainloop()
