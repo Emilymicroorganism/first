@@ -1,2 +1,10 @@
+import turtle
+w=turtle.Screen()
+T=turtle.Turtle()
+T.forward(60)
+T.color('blue')
 T.left(60)**3
-TypeError: unsupported operand type(s) for ** or pow(): 'NoneType' and 'int'
+#TypeError: unsupported operand type(s) for ** or pow(): 'NoneType' and 'int'
+#无法这样重复
+w.mainloop()
+
