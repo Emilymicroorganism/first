@@ -23,3 +23,10 @@ print(h,'h',T-60*h)
 T=int(input('the minutes'))
 h=T//60
 print(h,'h',T%60)
+
+t=float(input('the number of the year'))
+p=10000
+n=12
+r=0.08
+A=p*(1+r/n)**(n*t)
+print(A,'$')
