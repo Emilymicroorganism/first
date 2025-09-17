@@ -5,6 +5,10 @@ T.forward(60)
 T.color('blue')
 T.left(60)**3
 #TypeError: unsupported operand type(s) for ** or pow(): 'NoneType' and 'int'
-#无法这样重复
+#无法这样重复，不能像LOL**3=LOLLOLLOL一样，left(60)是个指令
 w.mainloop()
 
+C=input('the bgcolor')
+w.bgcolor('C')TurtleGraphicsError: bad color string: C
+#TurtleGraphicsError: bad color string: C
+#无法这样替换，不能把input('the bgcolor')像数字一样给C赋值
