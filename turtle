@@ -31,3 +31,8 @@ T.right(60)
 T.forward(120)
 
 w.mainloop()
+
+A=turtle.Turtle
+A.color('black')
+#AttributeError: 'str' object has no attribute '_color'
+#A=turtle.Turtle少了（）没变成笔
