@@ -1,0 +1,2 @@
+T.left(60)**3
+TypeError: unsupported operand type(s) for ** or pow(): 'NoneType' and 'int'
