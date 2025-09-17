@@ -30,3 +30,9 @@ n=12
 r=0.08
 A=p*(1+r/n)**(n*t)
 print(A,'$')
+
+t=float(input('the time right now'))
+c=float(input('the clock hours'))
+a=c+t
+r=int(a%24)
+print(r,':00')
